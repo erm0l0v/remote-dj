@@ -9,3 +9,4 @@ node_modules
 # Tools
 .idea
 .DS_Store
+/supervisord.pid

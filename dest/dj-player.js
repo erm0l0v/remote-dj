@@ -49,7 +49,7 @@
 
 	var bitcoin_url = __webpack_require__(57);
 
-	var socket = io('http://127.0.0.1');
+	var socket = io('http://ec2-54-169-242-142.ap-southeast-1.compute.amazonaws.com');
 
 	var sounds = {
 	    'bitcoin': new Howl({
