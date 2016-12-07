@@ -1,0 +1,7 @@
+web:
+  build: .
+  ports:
+    - "80:80"
+  volumes:
+    - .:/remote_dj
+    - ./log/:/var/log/

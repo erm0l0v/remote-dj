@@ -1,0 +1,31 @@
+{
+  "name": "remote-dj",
+  "version": "1.0.0",
+  "description": "Remote DJ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erm0l0v/remote-dj.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erm0l0v/remote-dj/issues"
+  },
+  "homepage": "https://github.com/erm0l0v/remote-dj#readme",
+  "dependencies": {
+    "express": "4.14.0",
+    "jquery": "3.1.1",
+    "socket.io": "1.7.1",
+    "socket.io-client": "1.7.1"
+  },
+  "devDependencies": {
+    "file-loader": "0.9.0",
+    "howler": "2.0.2",
+    "url-loader": "0.5.7",
+    "webpack": "1.14.0"
+  }
+}
