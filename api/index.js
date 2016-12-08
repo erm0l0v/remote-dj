@@ -1,6 +1,16 @@
+var path = require('path');
+
 var app = require('express')();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
+
+app.get('/', function (req, res) {
+    res.sendFile(path.join(__dirname, '../dest/dj-player.html'))
+});
+
+app.get('/controller', function (req, res) {
+    res.sendFile(path.join(__dirname, '../dest/remote-controller.html'))
+});
 
 io.on('connection', function(socket){
     console.log('client connected');
